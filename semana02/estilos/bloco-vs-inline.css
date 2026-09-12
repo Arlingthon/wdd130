@@ -40,3 +40,14 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+
+h3 {
+    text-align: center;
+}
+
+.imagem {
+    display: block;
+    margin: 0 auto;
+}
+
+button {}
