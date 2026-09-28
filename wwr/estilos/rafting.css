@@ -1,9 +1,14 @@
 :root {
+    /* Cores Principais - Tema Rio e Natureza */
     --cor-primaria: #055a05;
-    --cor-secundaria: #f4a261;
-    --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
-    --cor-midias-sociais: #fff;
+    --cor-secundaria: #d97706;
+    --cor-destaque1: #1e3a8a;
+    --cor-destaque2: #fef08a;
+    /* Cores de texto para Acessibilidade e Contraste */
+    --texto-escuro: #1f2937;
+    --texto-claro: #fff;
+    --texto-contraste-amarelo: #78350f;
+    /* Fontes */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -15,11 +20,12 @@
 }
 
 header {
-    background-color: #264653;
+    background-color: var(--cor-destaque1);
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
-    border-bottom: 5px solid var(--cor-secundaria)
+    border-bottom: 5px solid var(--cor-secundaria);
+    color: var(--texto-claro);
 }
 
 header img {
@@ -42,10 +48,9 @@ header nav ul {
 header nav ul li a {
     display: block;
     padding: 8px 16px;
-    border: 1ps solid #000;
+    border: 1px solid #000;
     text-decoration: none;
-    color: #000;
-    background-color: #fff;
+    color: var(--texto-escuro) background-color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -118,6 +123,9 @@ article {
     text-align: center;
     color: var(--cor-destaque2);
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .hero article img {
@@ -136,7 +144,7 @@ article {
     text-align: center;
     padding: 40px 20px;
     background-color: var(--cor-destaque2);
-    color: var(--cor-destaque1);
+    color: var(--texto-contraste-amarelo);
 }
 
 .secao-historia h2 {
@@ -225,6 +233,7 @@ footer p {
     padding: 0;
     flex: 1;
     text-align: center;
+    color: var(--texto-claro);
 }
 
 .redes-sociais {
@@ -236,7 +245,7 @@ footer p {
 }
 
 .redes-sociais a {
-    background-color: var(--cor-midias-sociais);
+    background-color: #fff;
     text-decoration: none;
     display: flex;
     justify-content: center;
