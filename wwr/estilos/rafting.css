@@ -119,7 +119,7 @@ article {
 
 .hero article {
     position: absolute;
-    top: 120px;
+    top: 100px;
     text-align: center;
     color: var(--cor-destaque2);
     z-index: 1;
