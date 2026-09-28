@@ -30,6 +30,20 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    text-align: var(--text-align);
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    color: #a8a8a4;
+    mix-blend-mode: multiply;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 nav {
@@ -75,25 +89,6 @@ main img {
 p {
     padding: 0;
     line-height: 1.6;
-}
-
-aside {
-    width: 20rem;
-    text-align: var(--text-align);
-    position: relative;
-}
-
-aside h2 {
-    position: absolute;
-    top: 30px;
-    left: 110px;
-    color: #a8a8a4;
-    mix-blend-mode: multiply;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
 }
 
 footer {
