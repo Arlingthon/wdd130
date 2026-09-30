@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Semana 5 | Jefferson Arlington</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Formulário HTML - Enquete do Usuário</h1>
+    </header>
+    <main>
+        <form>
+            <div class="item-formulario coluna2">
+                <label for="nomecompleto">Nome Completo</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+            </div>
+            <div class="item-formulario coluna2">
+                <label for="emaildousuario">E-mail</label>
+                <input type="email" id="email-do-usuario" name="email-do-usuario" required>
+            </div>
+            <div class="item-formulario coluna2 coluna1">
+                <label for="quantidade">Selecione a Quantidade</label>
+                <select name="navegador" id="navegador">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="item-formulario coluna2 coluna1">
+                <label for="pet">Você tem um bichinho de estimação em casa?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="item-formulario coluna2">
+                <label for="feedback">Liste os lugares onde você morou.</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                  placeholder="Sorocaba, Salt-lake Utah, Japan Tokio"></textarea>
+                <button type="submit">Enviar Pesquisa</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2026 | Formulário HTML - Atividade de Enquete do Usuário | Jefferson Arlington</p>
+    </footer>
+</body>
+
+</html>
