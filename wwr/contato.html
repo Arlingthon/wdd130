@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Entre em contato com a AquaVenture Rafting. Tire suas dúvidas, faça reservas ou envie sugestões para a nossa equipe.">
+    <meta name="author" content="Jefferson Arlington Anderson Souza Lopes">
+    <title>Fale Conosco - AquaVenture Rafting</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo-rafting.jpg" alt="Logo Tipo Rafting">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contato-info">
+            <h1>Companhia de Rafting em Corredeiras</h1>
+            <p>Rua Hermelindo Rodrigues Bueno, 123</p>
+            <p>Monte Alegre do Sul, São Paulo</p>
+            <p>+55 45 99999-9999</p>
+            <p>info@correiras.com</p>
+        </section>
+        <section class="contato-conteudo">
+            <div class="mapa-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.7615010533927!2d-46.65332364949037!3d-22.69992071781857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c93b7902544987%3A0x22148d760d8e7fff!2sRADICAIS%20NATUREZA!5e0!3m2!1spt-BR!2sbr!4v1791063172961!5m2!1spt-BR!2sbr"
+                  width="100%" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="formulario-contato">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite Aqui" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email"
+                      placeholder="Digite seu email aqui..." required>
+                </div>
+                <div class="campo-radio">
+                    <label>Propósito da Mensagem</label>
+                    <div>
+                        <input type="radio" id="duvida" name="proposito" value="Dúvida Geral"
+                          checked>
+                        <label for="duvida">Dúvida Geral</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reserva" name="proposito"
+                          value="Pergunta sobre Reserva">
+                        <label for="reserva">Pergunta sobre Reserva</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="sugestao" name="proposito" value="Sugestão">
+                        <label for="sugestao">Sugestão</label>
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite aqui" rows="5"
+                      required></textarea>
+                </div>
+                <div class="campo-checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Por favor, me inscreva na newsletter mensal</label>
+                </div>
+                <button type="submit">Entrar em Contato!</button>
+            </form>
+        </section>
+        <section class="equipe-secao">
+            <h2>Estamos Aqui para Servi-los</h2>
+            <div class="funcionarios-container">
+                <div class="funcionario-card">
+                    <img src="imagens/funcionarios/nefi-funcionario.jpg"
+                      alt="Perfil do Funcionário">
+                    <p>Perfil do Funcionário</p>
+                </div>
+                <div class="funcionario-card">
+                    <img src="imagens/funcionarios/moroni-funcionario.jpg"
+                      alt="Perfil do Funcionário">
+                    <p>Perfil do Funcionário</p>
+                </div>
+                <div class="funcionario-card">
+                    <img src="imagens/funcionarios/filho-mormon-funcionario.jpg"
+                      alt="Perfil do Funcionário">
+                    <p>Perfil do Funcionário</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 AquaVenture Rafting - Jefferson Arlington</p>
+        <nav class="redes-sociais">
+            <a href="https://www.facebook.com/jefferson.arlington?locale=pt_BR"> <img
+                  src="imagens/facebook.jpg" alt="Ícone do Facebook"></a>
+            <a href="https://www.linkedin.com/in/jefferson-souza-lopes-5b2715162/"> <img
+                  src="imagens/linkedin.jpg" alt="Ícone do Linkedin"></a>
+            <a href="https://instagram.com"> <img src="imagens/instagram.jpg"
+                  alt="Ícone do Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
